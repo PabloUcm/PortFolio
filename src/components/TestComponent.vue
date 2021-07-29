@@ -28,7 +28,7 @@ export default class TestComponent extends Vue {
     border-radius: 30px;
     color: white;
     padding: 10px 20px;
-    border: 2px solid #fe0000;
+    border: 2px solid #0096d2;
     background: #1b1b1b;
     font-family: 'Consolas';
     font-size: 15px;
