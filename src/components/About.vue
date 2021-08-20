@@ -36,6 +36,7 @@ export default class About extends Vue {
     display: flex;
     justify-content: space-evenly;
     height: 100%;
+    margin: 10% 0%;
 }
 
 .about-box {
@@ -45,7 +46,6 @@ export default class About extends Vue {
     padding: 20px;
     width: 30%;
     height: 90%;
-    margin: 10% 0%;
 }
 
 /*TRANSITIONS*/

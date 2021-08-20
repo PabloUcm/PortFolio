@@ -4,6 +4,7 @@
         <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
         <Header />
         <About />
+        <social-media />
     </div>
 </template>
 
@@ -12,12 +13,14 @@ import { Component, Vue } from 'vue-property-decorator'
 import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import About from './components/About.vue'
+import SocialMedia from './components/SocialMedia.vue'
 
 @Component({
     components: {
         HelloWorld,
         Header,
         About,
+        SocialMedia,
     },
 })
 export default class App extends Vue {}

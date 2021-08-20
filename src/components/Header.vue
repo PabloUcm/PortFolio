@@ -1,5 +1,5 @@
 <template>
-    <div id="test-main">
+    <div id="header-main">
         <div id="lang-header">
             <span class="lang-row" @click="changeLang(-1)">&lt;</span>
             <transition name="fadeLang" mode="out-in">
@@ -135,12 +135,12 @@ export default class TestComponent extends Vue {
 
 .fade-enter-to {
     opacity: 1;
-    transition: opacity 1s;
+    transition: opacity 1.4s;
 }
 
 .fade-leave-to {
     opacity: 0;
-    transition: opacity 1s;
+    transition: opacity 1.4s;
 }
 
 .fadeLang-enter {
